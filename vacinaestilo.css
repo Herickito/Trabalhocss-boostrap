@@ -1,0 +1,35 @@
+.tabela{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(9, 42, 226, 0.5);
+
+    
+}
+
+.dividir{
+    border-top: 1px solid cornflowerblue !important;
+}
+.dividir td{
+    border-left: 1px solid cornflowerblue !important;
+    border-right: 1px solid cornflowerblue !important;
+    border-bottom: 1px solid cornflowerblue !important;
+    border-top:  1px solid cornflowerblue !important;
+    padding: 5px;
+
+}
+
+.dividir2{
+    border-left: 1px solid cornflowerblue !important;
+    border-right: 1px solid cornflowerblue !important;
+    border-bottom: 1px solid cornflowerblue !important;
+ 
+    
+}
+
+
