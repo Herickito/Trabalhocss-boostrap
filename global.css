@@ -21,9 +21,7 @@
     
 }
 
-.dividir{
-    
-}
+
 .dividir {
     border-left: 1px solid #00796b!important;
     border-right: 1px solid #00796b !important;
@@ -55,8 +53,17 @@
     font-weight: bold;
     text-align: center;
     margin-top: 2rem;
-   
 }
+   
 
+.cadastro{
+    background-color: #f8f9fa !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(9, 42, 226, 0.5);
+    margin: 20px;
+    width: 50%;
+  }
 
 

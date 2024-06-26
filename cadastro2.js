@@ -11,9 +11,9 @@ window.addEventListener('load', function() {
             const email = document.getElementById('email').value;
             const dataNascimento = document.getElementById('dataNascimento').value;
             const endereco = document.getElementById('endereco').value;
-            const senha = document.getElementById('senha').value;
+
             
-            
+            resultadoDiv.style.display = 'block';
             resultadoDiv.innerHTML = `
                 <h2>Dados Cadastrados:</h2>
                 <p><strong>Nome Completo:</strong> ${nomeCompleto}</p>
@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
                 <p><strong>Email:</strong> ${email}</p>
                 <p><strong>Data de Nascimento:</strong> ${dataNascimento}</p>
                 <p><strong>Endereço Completo:</strong> ${endereco}</p>
-                <p><strong>Senha:</strong> ${senha}</p>
+
             `;
         } else {
             alert('Por favor, preencha todos os campos corretamente.');
@@ -30,7 +30,7 @@ window.addEventListener('load', function() {
 
     cancelarBtn.addEventListener('click', function() {
         form.reset();
-        
+        resultadoDiv.style.display = 'none';
         resultadoDiv.innerHTML = '';
     });
 });

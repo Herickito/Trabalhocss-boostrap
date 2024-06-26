@@ -1,8 +1,8 @@
+
 .navbar{
-    background-color: #007bff;
     color: white;
     padding: 10px;
- 
+
     box-shadow: 0 0 10px rgba(9, 42, 226, 0.5);
 }
 
@@ -11,33 +11,73 @@
     align-items: center;
     margin: auto;
     display: flex;
-    border: 1px solid cornflowerblue;
+    border: 1px solid #00796b;
     border-radius: 10px;
     padding: 10px;
     background-color: #f8f9fa;
     box-shadow: 0 0 10px rgba(9, 42, 226, 0.5);
+   
 
     
 }
 
-.dividir{
-    border-top: 1px solid cornflowerblue !important;
-}
-.dividir td{
-    border-left: 1px solid cornflowerblue !important;
-    border-right: 1px solid cornflowerblue !important;
-    border-bottom: 1px solid cornflowerblue !important;
-    border-top:  1px solid cornflowerblue !important;
-    padding: 5px;
+
+.dividir {
+    border-left: 1px solid #00796b!important;
+    border-right: 1px solid #00796b !important;
+    
+    border-top:  1px solid #00796b !important;
+    padding: 10px;
 
 }
 
 .dividir2{
-    border-left: 1px solid cornflowerblue !important;
-    border-right: 1px solid cornflowerblue !important;
-    border-bottom: 1px solid cornflowerblue !important;
+    border-left: 1px solid #00796b !important;
+    border-right: 1px solid #00796b!important;
+    border-bottom: 1px solid #00796b !important;
+   
  
     
 }
+#titulo1{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+#titulo2{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+   
 
+.cadastro{
+    background-color: #f8f9fa !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    box-shadow: 0 0 10px rgba(9, 42, 226, 0.5) !important;
+    margin: 2rem!important;
+    width: 45% !important;
+    
+    
+   
+  }
+#resultado {
+    background-color: #f8f9fa !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+    padding: 25px !important;
+    box-shadow: 0 0 10px rgba(9, 42, 226, 0.5) !important;
+    margin: 2rem !important;
+    width: 90% !important;
+    height: 85% !important;
+    
+    display: none;
+}
 
